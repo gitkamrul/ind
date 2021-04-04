@@ -462,9 +462,6 @@ input:focus {
     border-top: none;
 }
 
-
-
-
 .featured-item  .icon img{
     display: inline-block;
     width: 70px;
@@ -569,7 +566,6 @@ input:focus {
      -moz-transition: all 0.2s ease;
      -webkit-transition: all 0.2s ease;
  }
-
  
  .footer-nav ul li {
      display: block;
@@ -589,8 +585,6 @@ input:focus {
 .footer-nav ul li:first-child a{
     padding-top: 0;
 }
-
-
 
 /* Footer-area-css-end  */
 
@@ -618,4 +612,125 @@ input:focus {
 
 /* copyright-area-start  */
 
+/* Stay-Tuned-area-start  */
+.stay-tuned-area {
+    padding: 50px 0;
+}
+.stay-tunned-header {
+    text-align: center;
+}
+
+.stay-tunned-header h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #B28057;
+}
+
+.stay-tunned-header p {
+    font-weight: 300;
+    color: #6B4D48;
+    font-size: 14px;
+}
+
+.stay-tuned-content  .img img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.stay-tuned-content   .date {
+    color: #6B4D48 ;
+    font-weight: 700;
+    font-size:14px;
+    display: block;
+    margin-bottom: 5px;
+}
+.stay-tuned-content    h5 {
+    color: #B28057;
+    font-size: 24px;
+    font-weight:   400;
+    color: #B28057;
+    margin-bottom: 5px;
+}
+
+.stay-tuned-content   p {
+    font-size: 16px;
+    color: #6B4D48;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.stay-tuned-content   .read-more  {
+    margin: 10px 0;
+}
+
+.stay-tuned-content  .read-more a{
+    color: #6B4D48;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+}
+
+.stay-tuned-content   .read-more a:hover {
+    opacity: 0.8;
+}
+.stay-tuned-content   .read-more  span {
+    margin-right: 10px;
+}
+
+.stay-tuned-content  .left .img {
+    margin-bottom: 10px;
+}
+
+
+.stay-tuned-content .news-item {
+    margin-bottom: 20px;
+}
+
+/* Stay-Tuned-area-end  */
+
+/* news-letter-area-start  */
+.news-letter-area {
+    padding: 50px 0;
+}
+
+
+.news-letter-area .left p {
+    margin-bottom: 0;
+    color: #6B4D48;
+    font-size: 20pz;
+    font-weight: 400;
+}
+.news-letter-area .right input {
+    display:inline-block;
+    width: 75%;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid #6B4D48;
+    border-radius: 5px 0 0 5px;
+}
+.news-letter-area .right button{
+    outline: none;
+    background: #6B4D48;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 5px 5px 0;
+}
+.news-letter-area .right .submit-btn{
+    width: 25%;
+}
+
+.news-letter-area .right {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+/* news-letter-area-end  */
 
