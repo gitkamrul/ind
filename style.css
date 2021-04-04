@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {	
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;    
 	background: #fff;
@@ -244,25 +244,183 @@ input:focus {
     margin-left: -100px;
 }
 
-.hero .owl-theme .owl-nav.disabled + .owl-dots {
+.owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 25px;
 }
 
-.hero .owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
     width: 8px;
     height: 8px;
     background: #B28057;
     margin: 5px;
 }
 
-.hero .owl-theme .owl-dots .owl-dot.active span {
+.owl-theme .owl-dots .owl-dot.active span {
     background: #6B4D48;
 }
 
-
 /*-- hero area end --*/
 
+/* -- deal area start -- */
+.deal-block {
+    background-image: url(img/deal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
 
+.deal-heading h2 {
+    font-size: 48px;
+    color: #B28057;
+    font-weight: 400;
+}
+
+.deal-heading p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #6B4D48;
+}
+
+.deal-left h3 {
+    font-weight: 400;
+    color: #B28057;
+    font-size: 40px;
+}
+
+.deal-left-content {
+    padding-left: 30px;
+    padding-right: 120px;
+}
+
+.deal-left-content p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #6B4D48;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.deal-left-content-price p {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #6B4D48;
+}
+
+.deal-left-content-price p span {
+    display: inline-block;
+    font-size: 26px;
+    color: #B28057;
+    font-weight: 400;
+    margin-left: 50px;
+    position: relative;
+    top: 3px;
+}
+
+.countdown-container ul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(172, 170, 170,.5);
+}
+
+.countdown-container ul li {
+    width: 100px;
+    border-right: 1px solid #EBE2D9;
+}
+.countdown-container ul li {
+    font-size: 14px;
+    color: #6B4D48;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+
+.countdown-container ul li span {
+    color: #B28057;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.deal-left-time {
+    margin-top: 20px;
+}
+
+.deal-left-time a {
+    display: inline-block;
+    color: #fff;
+    border-radius: 36px;
+    background: #6B4D48;
+    padding: 8px 24px;
+    margin-top: 30px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.deal-left-time a:hover {
+    opacity: .7;
+}
+
+.deal-pic {
+    position: relative;
+    margin-left: -100px;
+}
+
+/* -- deal area end -- */
+
+/* -- product area start -- */
+.product-heading h2 {
+    font-size: 48px;
+    color: #B28057;
+    font-weight: 400;
+}
+
+.product-heading p {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #6B4D48;
+}
+
+.product-tab button {
+    display: inline-block;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    background: #B28057;
+    border-radius: 30px;
+    padding: 6px 22px;
+    margin: 7px 4px;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+}
+
+.product-tab button:hover {
+    background: #6B4D48;
+}
+
+.mixitup-control-active {
+    background: #6B4D48!important;
+}
+
+.activetab {
+    background: #6B4D48!important;
+}
+
+.product-tab .controls {
+    margin-top: 30px;
+}
+
+/* -- product area end -- */
 
 
 
