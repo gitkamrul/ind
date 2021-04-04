@@ -78,6 +78,35 @@
 			  	}
 			  });
 
+			  $('.threeb-slider').owlCarousel({
+				loop: true,
+				margin: 20,
+				center: false,
+				nav: false,
+				dots: true,
+				autoplay: false,
+				autoplayTimeout: 5000,
+				responsiveClass: true,
+				responsiveRefreshRate: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					768: {
+						items: 1
+					},
+					960: {
+						items: 1
+					},
+					1200: {
+						items: 1
+					},
+					1920: {
+						items: 1
+					}
+				}
+			});
+
 
 			//   code for mixitup
 
